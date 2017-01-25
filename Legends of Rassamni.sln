@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{347E053D-F329-81C7-6DE7-552B06AEFEE2}") = "Legends of Rassamni", "Assembly-CSharp-firstpass.csproj", "{718DF5DB-ADBE-E97F-DEB2-0BACFECA36CF}"
+EndProject
+Project("{347E053D-F329-81C7-6DE7-552B06AEFEE2}") = "Legends of Rassamni", "Assembly-CSharp.csproj", "{645A264C-7AC7-CE8C-65B8-83627CC31A0D}"
+EndProject
+Project("{347E053D-F329-81C7-6DE7-552B06AEFEE2}") = "Legends of Rassamni", "Assembly-CSharp-Editor.csproj", "{1353490A-047D-F010-ECD4-D83ACA21C1E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{718DF5DB-ADBE-E97F-DEB2-0BACFECA36CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718DF5DB-ADBE-E97F-DEB2-0BACFECA36CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718DF5DB-ADBE-E97F-DEB2-0BACFECA36CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718DF5DB-ADBE-E97F-DEB2-0BACFECA36CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645A264C-7AC7-CE8C-65B8-83627CC31A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645A264C-7AC7-CE8C-65B8-83627CC31A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645A264C-7AC7-CE8C-65B8-83627CC31A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645A264C-7AC7-CE8C-65B8-83627CC31A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1353490A-047D-F010-ECD4-D83ACA21C1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1353490A-047D-F010-ECD4-D83ACA21C1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1353490A-047D-F010-ECD4-D83ACA21C1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1353490A-047D-F010-ECD4-D83ACA21C1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

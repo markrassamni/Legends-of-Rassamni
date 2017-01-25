@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013529604086}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013529604086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012463883758}
+  - 114: {fileID: 114000014038440070}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012463883758
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013529604086}
+  m_LocalRotation: {x: 0.2588191, y: -0, z: -0, w: 0.9659258}
+  m_LocalPosition: {x: -18.94, y: 3.78, z: -22.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000014038440070
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013529604086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0277b4f118fff4874990306b1766d56f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  powerUpSpawns:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  healthPowerUp: {fileID: 1000012972372408, guid: db357d43e336d445eb9bd64c0a8f5893,
+    type: 2}
+  speedPowerUp: {fileID: 1000010663042416, guid: 332b5c426bc9a4c49a8ae8e4505e0082,
+    type: 2}
+  tanker: {fileID: 1000011878317988, guid: 7c38a27f7aafa4676b04ddd59e8c0214, type: 2}
+  ranger: {fileID: 1000012149933844, guid: 39ce83dfd4ddd421a907788ac25a3628, type: 2}
+  soldier: {fileID: 1000011990956002, guid: 4ff340b544e764e3cad814f9eb9764f3, type: 2}
+  levelText: {fileID: 0}
+  endGameText: {fileID: 0}
+  arrow: {fileID: 1000012247637556, guid: aca2f4c47001f4dfebea83ff05a22977, type: 2}
+  maxPowerUps: 4
+  powerUpSpawnTime: 60
